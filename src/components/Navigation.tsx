@@ -38,12 +38,12 @@ export const Navigation = () => {
             >
               Contact
             </Link>
-            <button className="relative">
+            <Link to="/cart" className="relative">
               <ShoppingCart className="w-6 h-6 text-gray-600 hover:text-primary transition-colors" />
               <span className="absolute -top-2 -right-2 bg-primary text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
                 0
               </span>
-            </button>
+            </Link>
           </div>
         </div>
       </div>
